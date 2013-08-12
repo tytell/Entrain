@@ -10,21 +10,31 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Channel.ctl" Type="VI" URL="../Channel.ctl"/>
+			<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
+			<Item Name="File refs.ctl" Type="VI" URL="../File refs.ctl"/>
+			<Item Name="Note.ctl" Type="VI" URL="../Note.ctl"/>
+			<Item Name="Run info.ctl" Type="VI" URL="../Run info.ctl"/>
+			<Item Name="Sampling info.ctl" Type="VI" URL="../Sampling info.ctl"/>
+			<Item Name="Stepper parameters.ctl" Type="VI" URL="../Stepper parameters.ctl"/>
+			<Item Name="Treatment type.ctl" Type="VI" URL="../Treatment type.ctl"/>
+			<Item Name="Treatment.ctl" Type="VI" URL="../Treatment.ctl"/>
+		</Item>
 		<Item Name="Acquire data.vi" Type="VI" URL="../Acquire data.vi"/>
 		<Item Name="Build digital output.vi" Type="VI" URL="../Build digital output.vi"/>
 		<Item Name="Build sinusoid.vi" Type="VI" URL="../Build sinusoid.vi"/>
-		<Item Name="Channel.ctl" Type="VI" URL="../Channel.ctl"/>
 		<Item Name="Clip signal.vi" Type="VI" URL="../Clip signal.vi"/>
 		<Item Name="Close DAQ.vi" Type="VI" URL="../Close DAQ.vi"/>
 		<Item Name="Close file.vi" Type="VI" URL="../Close file.vi"/>
 		<Item Name="Create HDF5 chunked dataset (1D).vi" Type="VI" URL="../Create HDF5 chunked dataset (1D).vi"/>
 		<Item Name="Create HDF5 chunked dataset (2D).vi" Type="VI" URL="../Create HDF5 chunked dataset (2D).vi"/>
 		<Item Name="Create HDF5 chunked dataset.vi" Type="VI" URL="../Create HDF5 chunked dataset.vi"/>
-		<Item Name="Data.ctl" Type="VI" URL="../Data.ctl"/>
 		<Item Name="Entrain.vi" Type="VI" URL="../Entrain.vi"/>
-		<Item Name="File refs.ctl" Type="VI" URL="../File refs.ctl"/>
 		<Item Name="Generate noise.vi" Type="VI" URL="../Generate noise.vi"/>
 		<Item Name="Generate output.vi" Type="VI" URL="../Generate output.vi"/>
+		<Item Name="Generate sine.vi" Type="VI" URL="../Generate sine.vi"/>
+		<Item Name="Generate sweep.vi" Type="VI" URL="../Generate sweep.vi"/>
 		<Item Name="Get channel info.vi" Type="VI" URL="../Get channel info.vi"/>
 		<Item Name="Get time signal.vi" Type="VI" URL="../Get time signal.vi"/>
 		<Item Name="HDF5 append data (DBL 1D).vi" Type="VI" URL="../HDF5 append data (DBL 1D).vi"/>
@@ -32,9 +42,6 @@
 		<Item Name="HDF5 append data.vi" Type="VI" URL="../HDF5 append data.vi"/>
 		<Item Name="Increment file number.vi" Type="VI" URL="../Increment file number.vi"/>
 		<Item Name="Make plots.vi" Type="VI" URL="../Make plots.vi"/>
-		<Item Name="Note.ctl" Type="VI" URL="../Note.ctl"/>
-		<Item Name="Run info.ctl" Type="VI" URL="../Run info.ctl"/>
-		<Item Name="Sampling info.ctl" Type="VI" URL="../Sampling info.ctl"/>
 		<Item Name="Save data.vi" Type="VI" URL="../Save data.vi"/>
 		<Item Name="Save start time.vi" Type="VI" URL="../Save start time.vi"/>
 		<Item Name="Set up chart.vi" Type="VI" URL="../Set up chart.vi"/>
@@ -43,13 +50,12 @@
 		<Item Name="Setup file output channels.vi" Type="VI" URL="../Setup file output channels.vi"/>
 		<Item Name="Setup file.vi" Type="VI" URL="../Setup file.vi"/>
 		<Item Name="Setup motor out.vi" Type="VI" URL="../Setup motor out.vi"/>
+		<Item Name="Setup treatment.vi" Type="VI" URL="../Setup treatment.vi"/>
 		<Item Name="Setup voltage in.vi" Type="VI" URL="../Setup voltage in.vi"/>
 		<Item Name="Start DAQ.vi" Type="VI" URL="../Start DAQ.vi"/>
-		<Item Name="Stepper parameters.ctl" Type="VI" URL="../Stepper parameters.ctl"/>
 		<Item Name="Stepper.vi" Type="VI" URL="../Stepper.vi"/>
 		<Item Name="Test HDF5 chunk.vi" Type="VI" URL="../Test HDF5 chunk.vi"/>
 		<Item Name="Test HDF5.vi" Type="VI" URL="../Test HDF5.vi"/>
-		<Item Name="Treatment.ctl" Type="VI" URL="../Treatment.ctl"/>
 		<Item Name="Upsample data.vi" Type="VI" URL="../Upsample data.vi"/>
 		<Item Name="Write output.vi" Type="VI" URL="../Write output.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
