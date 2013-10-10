@@ -21,6 +21,7 @@
 			<Item Name="Treatment type.ctl" Type="VI" URL="../Treatment type.ctl"/>
 			<Item Name="Treatment.ctl" Type="VI" URL="../Treatment.ctl"/>
 		</Item>
+		<Item Name="Accumulate.vi" Type="VI" URL="../Accumulate.vi"/>
 		<Item Name="Acquire data.vi" Type="VI" URL="../Acquire data.vi"/>
 		<Item Name="Build digital output.vi" Type="VI" URL="../Build digital output.vi"/>
 		<Item Name="Build sinusoid.vi" Type="VI" URL="../Build sinusoid.vi"/>
@@ -36,17 +37,23 @@
 		<Item Name="Generate output.vi" Type="VI" URL="../Generate output.vi"/>
 		<Item Name="Generate sine.vi" Type="VI" URL="../Generate sine.vi"/>
 		<Item Name="Generate sweep.vi" Type="VI" URL="../Generate sweep.vi"/>
+		<Item Name="Generate two freq.vi" Type="VI" URL="../Generate two freq.vi"/>
 		<Item Name="Get channel info.vi" Type="VI" URL="../Get channel info.vi"/>
 		<Item Name="Get time signal.vi" Type="VI" URL="../Get time signal.vi"/>
 		<Item Name="HDF5 append data (DBL 1D).vi" Type="VI" URL="../HDF5 append data (DBL 1D).vi"/>
 		<Item Name="HDF5 append data (DBL 2D).vi" Type="VI" URL="../HDF5 append data (DBL 2D).vi"/>
 		<Item Name="HDF5 append data.vi" Type="VI" URL="../HDF5 append data.vi"/>
 		<Item Name="Increment file number.vi" Type="VI" URL="../Increment file number.vi"/>
+		<Item Name="Make phase.vi" Type="VI" URL="../Make phase.vi"/>
 		<Item Name="Make plots.vi" Type="VI" URL="../Make plots.vi"/>
+		<Item Name="Mean Phase.vi" Type="VI" URL="../Mean Phase.vi"/>
+		<Item Name="Mean sweep phase.vi" Type="VI" URL="../Mean sweep phase.vi"/>
+		<Item Name="Queue initial values.vi" Type="VI" URL="../Queue initial values.vi"/>
 		<Item Name="Save data.vi" Type="VI" URL="../Save data.vi"/>
 		<Item Name="Save start time.vi" Type="VI" URL="../Save start time.vi"/>
 		<Item Name="Set up chart.vi" Type="VI" URL="../Set up chart.vi"/>
 		<Item Name="Setup DAQ.vi" Type="VI" URL="../Setup DAQ.vi"/>
+		<Item Name="Setup encoder in.vi" Type="VI" URL="../Setup encoder in.vi"/>
 		<Item Name="Setup file input channels.vi" Type="VI" URL="../Setup file input channels.vi"/>
 		<Item Name="Setup file output channels.vi" Type="VI" URL="../Setup file output channels.vi"/>
 		<Item Name="Setup file.vi" Type="VI" URL="../Setup file.vi"/>
